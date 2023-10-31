@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Noppapeli Kotisivu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        body {
+            text-align: center;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tervetuloa Noppapeliin!</h1>
+    <div class="button-container">
+        <button onclick="redirectTo('sikanoppapeli1noppa.html')">Pelaa yhdellä nopalla</button>
+        <button onclick="redirectTo('sikanoppapeli2noppa.html')">Pelaa kahdella nopalla</button>
+    </div>
+
+    <script>
+        function redirectTo(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
